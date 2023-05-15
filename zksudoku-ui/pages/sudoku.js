@@ -131,7 +131,7 @@ export default function Sudoku() {
         disabled={loadingVerifyBtn}
       >
         {loadingVerifyBtn && <div className={styles.loader}></div>}
-        <span>Verify Sudoku</span>
+        <span>Verificar Sudoku</span>
       </button>
     );
   };
@@ -196,7 +196,7 @@ export default function Sudoku() {
         disabled={loadingStartGameBtn}
       >
         {loadingStartGameBtn && <div className={styles.loader}></div>}
-        <span>New Game</span>
+        <span>Sudoku Nuevo</span>
       </button>
     );
   };
@@ -261,25 +261,24 @@ export default function Sudoku() {
       </div>
       <div className="flex place-content-center mt-20 text-lg text-slate-300">
         <div className="md:w-6/12">
-          <div className="text-center my-5 font-semibold">Sudoku rules:</div>
+          <div className="text-center my-5 font-semibold">Reglas del Sudoku:</div>
           <div className="space-y-5">
             <p>
-              <span className="font-semibold">Sudoku</span> (also known as
-              &quot;Number Place&quot;) is a placement puzzle. The puzzle is
-              most frequently a 9 x 9 grid made up of 3 x 3 subgrids (called
-              &quot;regions&quot;). Some cells already contain numbers, known as
-              &quot;givens&quot;.
+              <span className="font-semibold">Sudoku</span> (también conocido como
+              &quot;Number Place&quot;) es un rompecabezas de colocación. El rompecabezas es
+              más frecuentemente una cuadrícula de 9 x 9 compuesta por subgrillas de 3 x 3 (llamadas
+              &quot;regiones&quot;). Algunas celdas ya contienen números, conocidos como
+              &quot;determinados&quot;.
             </p>
             <ul className="list-disc space-y-2 pl-5">
               <li>
-                The goal is to fill in the empty cells, one number in each, so
-                that each column, row, and region contains the numbers 1 through
-                9 exactly once.
+              El objetivo es llenar las celdas vacías, colocando un número en cada una, de modo 
+              que cada columna, fila y región contenga los números del 1 al 9 exactamente una vez. 
               </li>
               <li>
-                Each number in the solution therefore occurs only once in each
-                of three &quot;directions&quot;, hence the &quot;single
-                numbers&quot; implied by the puzzle&apos;s name.
+              Cada número en la solución, por lo tanto, ocurre solo una vez en cada una de las tres 
+              &quot;direcciones&quot;, de ahí los &quot;números únicos&quot; implícitos por el nombre 
+              del rompecabezas.
               </li>
             </ul>
           </div>
