@@ -20,7 +20,7 @@ export default function GoBack() {
             <line x1="19" y1="12" x2="5" y2="12"></line>
             <polyline points="12 19 5 12 12 5"></polyline>
           </svg>
-          <span>Go back</span>
+          <span>Ir Atrás</span>
         </a>
       </Link>
     </div>

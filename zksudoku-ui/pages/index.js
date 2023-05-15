@@ -10,7 +10,7 @@ export default function Home() {
     <div>
       <div className="flex justify-center items-center">
         <span className="mb-10 text-3xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-sky-500 to-emerald-500 ">
-          Solve zkSudoku Games
+        Resuelve el Juego zkSudoku
         </span>
       </div>
       <div className="flex justify-center items-center">
