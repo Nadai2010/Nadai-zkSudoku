@@ -1,4 +1,4 @@
-const GITHUB_LINK = "https://github.com/vplasencia/zkSudoku";
+const GITHUB_LINK = "https://github.com/Nadai2010/Nadai-zkSudoku";
 
 export default function ViewSourceCode() {
   return (
