@@ -110,11 +110,11 @@ export default function Sudoku() {
       }
       console.log("result", result);
       setLoadingVerifyBtn(false);
-      alert("Successfully verified");
+      alert("Verificación Exitosa");
     } catch (error) {
       setLoadingVerifyBtn(false);
       console.log(error);
-      alert("Wrong solution");
+      alert("Solución Incorrecta");
     }
   };
 
