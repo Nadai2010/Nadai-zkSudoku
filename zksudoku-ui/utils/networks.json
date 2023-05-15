@@ -1,0 +1,30 @@
+{
+  "selectedChain": "11155111",
+  "1337": {
+    "chainId": "1337",
+    "chainName": "Localhost 8545",
+    "rpcUrls": ["http://localhost:8545"],
+    "nativeCurrency": {
+      "symbol": "ETH"
+    },
+    "blockExplorerUrls": []
+  },
+  "11155111": {
+    "chainId": "11155111",
+    "chainName": "Sepolia",
+    "rpcUrls": ["https://rpc.sepolia.org"],
+    "nativeCurrency": {
+      "symbol": "ETH"
+    },
+    "blockExplorerUrls": ["https://sepolia.etherscan.io/"]
+  },
+  "80001": {
+    "chainId": "80001",
+    "chainName": "Mumbai",
+    "rpcUrls": ["https://rpc-mumbai.maticvigil.com"],
+    "nativeCurrency": {
+      "symbol": "MATIC"
+    },
+    "blockExplorerUrls": ["https://mumbai.polygonscan.com/"]
+  }
+}
